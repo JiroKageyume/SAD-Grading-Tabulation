@@ -32,7 +32,7 @@ const currentYear = new Date().getFullYear();
   // 1. HIDDEN ADMIN LOGIN (Ctrl + Shift + M)
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.ctrlKey && e.shiftKey && (e.key === 'M' || e.key === 'm')) {
+      if (e.ctrlKey && e.shiftKey && (e.key === 'A' || e.key === 'a')) {
         e.preventDefault();
         router.push('/login');
       }
